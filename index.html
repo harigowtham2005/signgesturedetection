@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Gesture Detection</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #232526, #414345);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    main {
+      background: #2d2d2d;
+      padding: 2rem;
+      border-radius: 15px;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    section {
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 1px solid #555;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .btn {
+      background: #00bcd4;
+      padding: 0.75rem 1.5rem;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #0191a8;
+    }
+    footer {
+      margin-top: auto;
+      color: #888;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sign Gesture Detection</h1>
+    <p>Detect hand gestures using deep learning and computer vision.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🔍 About the Project</h2>
+      <p>
+        This project uses a deep learning model trained on a dataset of pre-processed hand gesture images to recognize American Sign Language characters (A–Z, 0–9). The model can make real-time predictions using a webcam feed.
+      </p>
+    </section>
+
+    <section>
+      <h2>💻 Features</h2>
+      <ul>
+        <li>Trained with TensorFlow/Keras</li>
+        <li>Real-time gesture prediction via webcam</li>
+        <li>Supports both digits and letters</li>
+        <li>Live video feed using OpenCV</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📂 Repository</h2>
+      <p>Check out the full source code and training scripts on GitHub.</p>
+      <a class="btn" href="https://github.com/harigowtham2005/signgesturedetection" target="_blank">View on GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Hari Gowtham | Sign Gesture Detection Project
+  </footer>
+
+</body>
+</html>
